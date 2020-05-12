@@ -39,7 +39,7 @@ jobs:
         uses: github/deploy-nodejs@master
         env:
           AWS_ACCESS_KEY: ${{ secrets.AWS_ACCESS_KEY }}
-          AWS_SECRET_KEY: ${{ secrets.AWS_SECRET_KEY }}name: Staging deployment
+          AWS_SECRET_KEY: ${{ secrets.AWS_SECRET_KEY }}
 
 on: 
   pull_request:
